@@ -11,7 +11,7 @@ from transformers import set_seed, AutoTokenizer, BitsAndBytesConfig
 from .llava.model.language_model.llava_qwen import LlavaQwenForCausalLM
 
 import warnings
-import comfy.model_management as mm
+import totoro.model_management as mm
 import folder_paths
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
